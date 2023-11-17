@@ -1,0 +1,37 @@
+:root {
+    --saffron: #eec643ff;
+    --night: #141414ff;
+    --antiflash-white: #eef0f2ff;
+    --zaffre: #0d21a1ff;
+    --oxford-blue: #011638ff;
+    --gradient-top: linear-gradient(0deg, #eec643ff, #141414ff, #eef0f2ff, #0d21a1ff, #011638ff);
+    --gradient-right: linear-gradient(90deg, #eec643ff, #141414ff, #eef0f2ff, #0d21a1ff, #011638ff);
+    --gradient-bottom: linear-gradient(180deg, #eec643ff, #141414ff, #eef0f2ff, #0d21a1ff, #011638ff);
+    --gradient-left: linear-gradient(270deg, #eec643ff, #141414ff, #eef0f2ff, #0d21a1ff, #011638ff);
+    --gradient-top-right: linear-gradient(45deg, #eec643ff, #141414ff, #eef0f2ff, #0d21a1ff, #011638ff);
+    --gradient-bottom-right: linear-gradient(135deg, #eec643ff, #141414ff, #eef0f2ff, #0d21a1ff, #011638ff);
+    --gradient-top-left: linear-gradient(225deg, #eec643ff, #141414ff, #eef0f2ff, #0d21a1ff, #011638ff);
+    --gradient-bottom-left: linear-gradient(315deg, #eec643ff, #141414ff, #eef0f2ff, #0d21a1ff, #011638ff);
+    --gradient-radial: radial-gradient(#eec643ff, #141414ff, #eef0f2ff, #0d21a1ff, #011638ff);
+}
+
+.navbar {
+    /* background-color: var(--night); */
+    /* color: #fff; */
+}
+
+.navbar a.nav-link:hover {
+    color: var(--saffron);
+}
+
+#sidebar {
+    background-color: var(--saffron);
+    color: #fff;
+    min-height: 91vh;
+}
+
+@media (max-width: 425px) {
+    #sidebar {
+        min-height: auto;
+    }
+}
